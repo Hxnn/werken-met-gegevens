@@ -2,8 +2,8 @@ Croissant = 17
 CPrijs = 0.39
 Stokbroden = 2
 SPrijs = 2.78
-
-print(Croissant * CPrijs + (Stokbroden * SPrijs))
+Kortingbonnen = 1.5
+print(Croissant * CPrijs + (Stokbroden * SPrijs) - Kortingbonnen)
 
 Toegangsticket = 7.45
 Personen = 4
